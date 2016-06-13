@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/load_image"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:text="Load Image"
+        android:textSize="18px"
+        android:layout_margin="5px"/>
+    
+    <Button 
+        android:id="@+id/reset_image"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:text="Update Image"
+        android:textSize="18px"
+        android:layout_margin="5px"/>
+    
+    <TextView 
+        android:id="@+id/textView_imgCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="18px"
+        android:layout_margin="5px"/>
+    
+    <com.lee.bitmapfun.TosImageViewer
+        android:id="@+id/image_viewer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    
+</LinearLayout>
